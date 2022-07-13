@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         // реализуйте алгоритм здесь
         UserDaoJDBCImpl test = new UserDaoJDBCImpl();
+       // test.dropUsersTable();
         test.createUsersTable();
         test.saveUser("Alexandr","F", (byte) 31);
     }
