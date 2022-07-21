@@ -6,6 +6,11 @@ import javax.persistence.Table;
 
 @Table
 public class User {
+    @Override
+    public String toString() {
+        return "id: " + getId() + "Name: " + getName() + "Last name: " + getLastName() + "Age: " + getAge();
+    }
+
     @Id
     private Long id;
 

@@ -16,7 +16,6 @@ public class Util {
 
     public static Connection getConnection() {
         try {
-            System.out.println("testconnection");
             return  DriverManager.getConnection(url,
                     user,
                     password);
